@@ -1,0 +1,37 @@
+# ROS Build and Development Directories
+build/
+devel/
+install/
+log/
+.catkin_workspace
+
+# Python Artifacts
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.tox/
+.venv/
+venv/
+env/
+
+# C++ / IDE Build & Configuration Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.qtworkspace
+CMakeLists.txt.user
+*.o
+*.obj
+*.so
+*.a
+
+# System & OS Specific Files
+.DS_Store
+Thumbs.db
+
+# Heavy Data & Logs
+*.bag
+*.db3
